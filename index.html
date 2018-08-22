@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ignacio Gea</title>
+  <meta name="description" content="My Website">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+</head>
+
+<style>
+  body {
+    padding-top: 40px;
+  }
+</style>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+  <!--Navbar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a href="" class="navbar-brand">Ignacio Gea</a>
+      </div>
+      <!--Navbar Header-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#aboutme">About Me</a>
+          </li>
+          <li>
+            <a href="#photos">Photos</a>
+          </li>
+          <li>
+            <a href="#facts">Fun Facts</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--End Container-->
+  </nav>
+  <!-- End navbar-->
+
+  <!-- jumbotron-->
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Ignacio Gea</h1>
+      <p>Software Engineer pursuing to positively impact the world!</p>
+      <div class="center">
+        <img src="img/me.jpg" alt="Nacho" class="img-responsive" style="border-radius:25%;width:600px;margin-left: auto;margin-right: auto;">
+      </div>
+      <br>
+      <div class="btn-group">
+        <a href="documents/IgnacioGeaResume.pdf" class="btn btn-lg btn-info">Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <!--About Me-->
+  <div class="container">
+    <section>
+      <div class="page-header" id="aboutme">
+        <h2>About Me.
+          <small> Some brief insight</small>
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-body">
+              <span class="glyphicon glyphicon-home"></span>
+              <h4>Hometown</h4>
+              <p>I was born in Tampico, Tamaulipas: A small city on the east coast of Mexico.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-body">
+              <span class="glyphicon glyphicon-education"></span>
+              <h4>Education</h4>
+              <p>I have a B.S. in Computer Engineering with a minor in Mathematics and Computer Science from the University
+                of Arkansas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-body">
+              <span class="glyphicon glyphicon-briefcase"></span>
+              <h4>Work</h4>
+              <p>I an a Software Engineer at Cerner for the Physician Documentation Dev team.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end row-->
+    </section>
+  </div>
+  <!--End container-->
+
+  <!-- Photos-->
+  <div class="container">
+    <section>
+      <div class="page-header" id="photos">
+        <h2>Photos.
+          <small> Check out some cool pictures</small>
+        </h2>
+      </div>
+
+      <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+          <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/family.jpg" alt="Family in Colorado">
+            <div class="carousel-caption">
+              <h3>With the family in Colorado</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/fiancee.jpg" alt="Fiancée in San Diego">
+            <div class="carousel-caption">
+              <h3>Pictures of people taking pictures</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/fiancee2.jpg" alt="Fiancée in KC Zoo">
+            <div class="carousel-caption">
+              <h3>With the Fiancée - Kansas City Zoo</h3>
+            </div>
+          </div>
+        </div>
+        <!--end carousel inner-->
+        <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+      <!-- end Carousel-->
+    </section>
+  </div>
+  <!-- End Container-->
+
+  <!--Fun Facts-->
+  <div class="container">
+    <section>
+      <div class="page-header" id="facts">
+        <h2>Fun Facts!
+          <small> Interesting facts about me</small>
+        </h2>
+      </div>
+      <!--End Page Header-->
+
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                Do you go by any other name?
+              </a>
+            </div>
+            <!-- End Panel Title-->
+            <div id="collapse-1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Friends and family call me Nacho. This is the nickname for all Ignacio's.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                What do you do in your spare time?
+              </a>
+            </div>
+            <!-- End Panel Title-->
+            <div id="collapse-2" class="panel-collapse collapse">
+              <div class="panel-body">
+                I enjoy playing the guitar, soccer, video games, and learning about new tech.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                What is your coolest experience?
+              </a>
+            </div>
+            <!-- End Panel Title-->
+            <div id="collapse-3" class="panel-collapse collapse">
+              <div class="panel-body">
+                My coolest experience has to be scuba diving for the first time in the Grand Cayman Islands. This was a wonderful and thrilling
+                activity. I hope to get certified in the near future.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End panel group-->
+
+    </section>
+  </div>
+  <!-- End Container-->
+
+  <!--Contact -->
+  <div class="container">
+    <section>
+      <div class="page-header" id="contact">
+        <h2>Contact Me</h2>
+      </div>
+      <!--End Page Header-->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <p>Shoot me an email or give me a call</p>
+          <address>
+            <strong>Ignacio Gea Gonzalez</strong>
+            </br>
+            Email: igeagonz@gmail.com</br>
+            Phone Number: (479) 685-2498
+            <br>
+            <span class="glyphicon glyphicon-earphone"></span>
+            <span class="glyphicon glyphicon-envelope"></span>
+          </address>
+        </div>
+      </div>
+      <!-- End Row-->
+    </section>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <hr>
+    <div class="conatiner text-center">
+
+      <ul class="list-inline">
+        <li>
+          <a href="https://twitter.com/igea17">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/nacho.gea">Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/pub/ignacio-gea/b6/aa6/ab">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://instagram.com/igea17/">Instagram</a>
+        </li>
+        <li>
+          <a href="https://github.com/igeagonz">GitHub</a>
+        </li>
+      </ul>
+    </div>
+    <!--end container-->
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
